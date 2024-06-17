@@ -8,7 +8,7 @@ export function Header() {
   return (
     <HeaderContainer>
       <span>
-        <img src={logoGondim} alt="" />
+        <img src={logoGondim} alt=""  width={100} height={100}/>
       </span>
       <nav>
         <NavLink to="/" title="Timer">
